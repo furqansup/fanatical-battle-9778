@@ -130,3 +130,51 @@
 .foot-line {
   margin-top: 50px;
 }
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shop-grid{
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(5, 1fr);
+  width: 50%;
+  margin: auto;
+  row-gap: 10px;
+  margin-bottom: 50px;
+}
+.shop-grid div{
+  margin: auto;
+  width: 120px;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+.shop-grid >div img{
+  width: 100px;
+}
+#val-gift{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+#val-gift div{
+  overflow: hidden;
+}
+
+#val-gift div img{
+  transition: transform .5s ease;
+}
+#val-gift:hover div img{
+  transform: scale(1.1);
+}
+#game-day{
+  margin: auto;
+  width: 70%;
+  margin-bottom: 50px;
+}
+#deals-week{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
