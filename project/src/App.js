@@ -3,6 +3,9 @@ import { Navbar } from './Components/Navbar';
 import Slideshow from './Components/Slideshow';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import Product from './Components/Product';
+import Cart from './Components/Cart';
+import Delivery from './Components/Delivery';
 import './App.css';
 
 
@@ -12,6 +15,9 @@ function App() {
       <Navbar />
       <Slideshow/>
       <Home/>
+      <Product/>
+      {/* <Cart/> */}
+      {/* <Delivery/> */}
       <Footer/>
     </div>
   );
