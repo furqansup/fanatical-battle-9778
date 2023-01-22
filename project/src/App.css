@@ -9,6 +9,14 @@
   background-color: black;
   height: 120px;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 #ul {
   display: flex;
@@ -38,6 +46,7 @@
 .Slideshow {
   margin: 20px auto;
   width: 70%;
+  height: 500px;
   display: flex;
   align-items: center;
 }

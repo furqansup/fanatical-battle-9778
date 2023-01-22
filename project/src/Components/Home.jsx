@@ -1,8 +1,10 @@
 import React from "react";
+import Slideshow from "./Slideshow";
 
 function Home() {
   return (
     <div>
+      <div><Slideshow/></div>
       <h2>Shop by Category</h2>
       <div className="shop-grid">
         <div>
