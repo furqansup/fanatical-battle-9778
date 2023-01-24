@@ -10,6 +10,7 @@ const Cart = () => {
   };
 
   const handlePlaceOrder = () => {
+    JSON.parse(localStorage.getItem("cart"))
     alert("Order has been placed");
   };
 
